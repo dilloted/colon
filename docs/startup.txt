@@ -1,0 +1,20 @@
+Each time you need to start a new instance of Klipper there are some necesary steps that have to happen in order to get everything going on smoothly.
+Here I am just going to list out some of those tasks so that at a later point I can go ahead and turn that into an install.sh file that does most of this for me. 
+
+
+Current Setup
+
+Flash RPI with current version of Klipper
+Add RPi to the DHCP/DNS server so that it can be accessed in the future
+Klipper-Backup 💾 install script
+Pull Colon repo from source
+Create printer.cfg file and find MCU ID
+Install RPI camera python modules
+Run RPI Update
+
+Paper bed leveling
+Bed mesh testing
+PID Tune Bed
+PID tune hot end
+Test filament extrusion rate
+
